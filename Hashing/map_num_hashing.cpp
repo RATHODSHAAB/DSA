@@ -5,13 +5,10 @@ using namespace std;
 int main() {
     int n;
 
-    //The code for the number hasing using arrays is remainig and 
+    //The code for the number hasing using arrays is done ✅ and 
     //character is remaining
 
-
-
-
-
+    // Hasing using maps Using Map
     //cin is used to take the inputs 
     //Here we are taking n as input
     cin >> n; //suppose we get 7
@@ -26,7 +23,7 @@ int main() {
     //after this the array becomes arr[7] = [1,2,3,3,2,1,12]
 
     //precompute 
-    ///Using Map
+ 
     //map stores key and frequency ! key mean the unique number and
     //it frequency that what's we need here ! 
     map<int, int>mpp; 
